@@ -50,7 +50,7 @@ void main()
 	printf(" 7) Make Collage\n");
 	printf(" 8) Image Morphing\n");
 	printf(" 9) stegnography\n");
-	printf("\nSelect your choice\n");
+	printf("\nSelect your choice (1-9)\n");
 	scanf("%d",&iChoice);
 	switch(iChoice)
 	{
