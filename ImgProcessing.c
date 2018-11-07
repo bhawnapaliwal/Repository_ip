@@ -7,7 +7,7 @@ bool msg_bin[480]={0};
 bool temp[8];
 char sec_msg[60];
 
-
+//Function to convert number from decimal to binary
 void dec_to_bin(int n)
 {
  int index=7,i;
@@ -20,6 +20,7 @@ void dec_to_bin(int n)
  }
 }
 
+//Function to take mesaage as input
 void inp_msg()
 {
       printf("Please type your secret message :\n");
